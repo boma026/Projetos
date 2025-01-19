@@ -1,0 +1,115 @@
+body{
+    background-color: rgba(65, 186, 223, 0.651);
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width:1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+   font-size: 35px; 
+   margin-bottom: 10px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.links {
+    
+    margin-left: 0px;
+}
+
+.barra{
+    background-color: black;
+    height:18px;
+    width:1px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#principal{
+    margin-top:20px;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    object-fit: cover;
+}
+
+article{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo_artigo{
+    margin-top: 40px;
+    margin-bottom: 12px;
+    font-size: 25px;
+    text-shadow: 2px 2px 0px white;
+}
+
+.chilanka-regular {
+    font-family: "Chilanka", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 23px; 
+  }
+
+.premios{
+   margin-top: 25px;
+   align-self: flex-start;
+   font-size: 20px;
+  }
+
+.premios2{
+    margin-top: 0px;
+}
+
+.premios-lista{
+    align-self: flex-start;
+  
+}
+.premios-lista-titulo{
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+#fotos{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagem{
+    object-fit: cover;
+    width:250px;
+    height: 250px;
+    margin-top: 30px;
+}
+
+.footer_copy{
+    border-top: 1px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    color: white;
+    margin-top: 30px;
+    background-color: #2c2c2c;
+}

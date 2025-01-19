@@ -1,0 +1,138 @@
+/* Global styles */
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1050px;
+}
+
+.titulo {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    margin-left: 10px;
+    font-family: "Roboto", sans-serif;
+}
+
+section ul, section li {
+    margin: 0px;
+    margin-left: 9px;
+    padding: 0px;
+    font-size: 14px;
+}
+
+section li {
+    margin-bottom: 15px;
+}
+
+#banner {
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    width: 100%;
+    background-color:rgba(9, 9, 65, 0.171);
+}
+
+.alinhar {
+    align-self: flex-start;
+}
+
+.modelo {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+p {
+    width: 1050px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    border-bottom: 1px solid rgba(9, 9, 65, 0.171);
+}
+
+#artigo {
+    display: flex;
+    justify-content: center;
+    height:250px;
+    margin-top: 15px;
+}
+
+.titulo2 {
+    display: flex;
+    justify-content: center;
+}
+
+.cabecalho {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.texto {
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.article {
+    flex-grow: 1;
+    margin: 0 8px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Media queries */
+@media (max-width: 1050px) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media (max-width: 755px) {
+    .banner_li li {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 604px) {
+    .column {
+        display: flex;
+        flex-direction: column;
+
+    }
+    
+}
+

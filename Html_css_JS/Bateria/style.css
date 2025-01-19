@@ -1,0 +1,65 @@
+body{
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.container{
+    height:800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: white;
+}
+
+.conteudo{
+    width: 300px;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bateria{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.quadrado{
+    width:70px;
+    height: 70px;
+    border: 2px solid white;
+    margin: 5px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.quadrado p{
+    font-size: 30px;
+}
+
+#caixa, #play{
+    width: 230px;
+    height: 30px;
+    font-size: 16px;
+}
+
+#play{
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    color: white;
+    background-color: #333;
+}

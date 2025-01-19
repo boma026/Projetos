@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/Css/template.css"/>
+    <script type="text/javascript">
+
+    window.onload = function() {
+        document.querySelector(".menu_mobile").addEventListener("click", function() {
+            var ul = document.querySelector(".menu nav ul");
+            var display = window.getComputedStyle(ul).display;
+            if (display === 'flex') {
+                ul.style.display = 'none';
+            } else {
+                ul.style.display = 'flex';
+            }
+        });
+    };
+
+
+    </script>
+
+    <title>MediCenter</title> 
+    
+</head>
+<body>
+
+    <header> 
+        <div class="container">
+                 
+            <div class="logo">
+                <picture>
+                    <img src="Assets/Imagens/logo.png" alt="logo medicenter"/> 
+                </picture> 
+            </div>
+
+            <div class="menu">
+                <nav>
+                    <div class="menu_mobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
+                    <ul style="list-style-type: none;">
+                        <li class="active"><a href="www.google.com.br" id="home"> HOME </a></li>
+                        <li><a href="www.google.com.br"> BLOG </a></li>
+                        <li><a href="www.google.com.br"> PAGES </a></li>
+                        <li><a href="www.google.com.br"> DEPARTMENTS </a></li>
+                        <li><a href="www.google.com.br"> TIMETABLE </a></li>
+                        <li><a href="www.google.com.br"> CONTACTS </a></li>
+                    </ul>    
+                </nav>    
+            </div>   
+        </div>    
+    </header>
+
+    <section id="banner">
+        <div class ="container column">
+            <div class="texto">
+            <h1> Top notch experience</h1> <h2>Medicenter is a responsive template perfect for all screen sizes</h2>
+            </div> 
+
+            <div class="banner_option">
+                <div class="area1">
+                    <div class="banner_titulo">Emergency Case</div>
+
+                    <div class="banner_descricao">if you need a doctor urgently outside of medicenter opening hours, call emergency appointment number for emergency service</div>
+
+                   <a href="www.google.com"> Read more -></a>
+                
+                </div>
+                <div class="area2">
+                    <div class="banner_titulo">Doctor Timetable</div>
+
+                    <div class="banner_descricao">
+                        Here at medicener we have individual doctor's list. Click read more below to see services and current timetable for our doctors.
+                    </div>
+
+                    <a href="www.google.com"> Read more -></a>
+
+                </div>
+                <div class="area3">
+                    <div class="banner_titulo">Opening Hours</div>
+                    
+                    <div class="banner_descricao horarios">
+
+                        <div > Monday - friday</div>                    <div> 08:00 - 17.00 </div>
+  
+                    </div>
+
+                    <div class="banner_descricao horarios">
+                        <div > Saturday </div>                    <div> 09:30 - 17.30 </div>
+                    </div>    
+
+                    <div class="banner_descricao horarios">
+                        <div> Sunday </div>                    <div> 09:30 - 15.00 </div>
+                    </div>    
+
+                </div>
+            </div>   
+        </div>        
+    </section>
+
+    <section id="geral">
+
+        <div class="container">
+            <section>
+                
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text" > Latest News </div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+
+                </div> 
+                
+                <div class="widget_body flex">
+                    <article>
+                        <a href="google.com.br">
+                            <div class="news_data">
+                                <div class="news_posted_at">12 DEC 12 </div>
+                                <div class="news_comments"> 2 </div>
+                            </div>
+
+                            <div class="news_thumbnail">
+                                <img src="../flexbox_html_semantico/Assets/Imagens/img2.jpg"/>
+                            </div>
+
+                            <div class="widget_body_title">Lorem ipsum Dolor sit amat velum</div>
+                            <div class="widget_body_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</div>
+                        </a>    
+                    </article>
+
+                    <article>
+                        <a href="google.com.br">
+                            <div class="news_data">
+                                <div class="news_posted_at">12 DEC 12 </div>
+                                <div class="news_comments"> 2 </div>
+                            </div>
+
+                            <div class="news_thumbnail">
+                                <img src="../flexbox_html_semantico/Assets/Imagens/img2.jpg"/>
+                            </div>
+
+                            <div class="widget_body_title">Lorem ipsum Dolor sit amat velum</div>
+                            <div class="widget_body_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</div>
+                        </a>    
+                    </article>
+
+                    <article>
+                        <a href="google.com.br">
+                            <div class="news_data">
+                                <div class="news_posted_at">12 DEC 12 </div>
+                                <div class="news_comments"> 2 </div>
+                            </div>
+
+                            <div class="news_thumbnail">
+                                <img src="../flexbox_html_semantico/Assets/Imagens/img2.jpg"/>
+                            </div>
+
+                            <div class="widget_body_title">Lorem ipsum Dolor sit amat velum</div>
+                            <div class="widget_body_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</div>
+                        </a>    
+                    </article>
+
+                    <article>
+                        <a href="google.com.br">
+                            <div class="news_data">
+                                <div class="news_posted_at">12 DEC 12 </div>
+                                <div class="news_comments"> 2 </div>
+                            </div>
+
+                            <div class="news_thumbnail">
+                                <img src="../flexbox_html_semantico/Assets/Imagens/img2.jpg"/>
+                            </div>
+
+                            <div class="widget_body_title">Lorem ipsum Dolor sit amat velum</div>
+                            <div class="widget_body_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</div>
+                        </a>    
+                    </article>
+
+                </div>                
+
+            </section>
+            
+            <aside>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text" > Departments </div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+
+                </div> 
+
+                <div class="departamento">
+                    <div class="quadrados"></div>
+                    <div class="quadrados"></div>
+                    <div class="quadrados"></div>
+                    <div class="quadrados"></div>
+                    <div class="quadrados"></div>
+                    <div class="quadrados"></div>
+
+                </div>
+
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text" > Make an appointment </div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+
+                </div>    
+
+                <div class="widget_body_text"> Lorem ipsum Dolor sit amat velum It is a long established fact that a reader will be distracted  </div>
+            
+                <div class="separar"></div>
+
+                <div class="widget_descricao">By phone: <strong>1800-649-4309</strong></div>
+
+                <div class="widget_descricao">By e-mail: <a href="www.google.com"> fixegabriel@yahoo.com</a></div>
+
+                <div class="widget_descricao">Or <a href="www.google.com"> fill the form </a> on our contact page</div>
+            </aside>
+
+        </div>
+
+
+    </section>
+
+    <footer>
+        <div class="container flex_column">
+            <div class="footer_menu">
+                <div class="fm_1">
+
+                    <div class="titulo"> Health Insurance</div>    
+                    <div class="descricao"> Here in medicenter we have individual -></div>
+
+                </div>
+
+                <div class="fm_2">
+                    
+                    <div class="titulo"> Medical Records </div>    
+                    <div class="descricao"> Here in medicenter we have individual -></div>
+
+                </div>
+
+                <div class="fm_3">
+                  
+                    <div class="titulo"> Online Bills</div>    
+                    <div class="descricao"> Here in medicenter we have individual -></div>
+
+                </div>
+
+            </div>
+            <div class="footer_area">
+                
+                <div class="footer_area_item">
+
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text" > Medicenter Clinic </div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+    
+                    </div> 
+    
+                </div>
+
+                <div class="footer_area_item">
+                    
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text" > Latest Post </div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+    
+                    </div> 
+
+                </div>
+
+                <div class="footer_area_item">
+                    
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text" > Latest Tweets </div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+    
+                    </div> 
+
+                </div>
+
+            </div>
+
+            <div class="footer_copy">
+                Copyright - Todos os direitos reservados
+            </div>
+
+        </div>
+
+    </footer>
+</body>
+</html>
