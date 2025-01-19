@@ -1,0 +1,7 @@
+sistema de gerenciamento de reservas para um teatro. Ele permite criar uma matriz de assentos, visualizar sua ocupação, reservar ou cancelar reservas individuais ou em sequência, verificar disponibilidade, salvar e carregar o estado dos assentos de um arquivo. 
+Oferece opções para gerenciamento automatizado ou manual das reservas, além de exibir informações gerais sobre os assentos disponíveis e ocupados.
+
+pra compilar:
+
+gcc -o teatro programa.c
+./teatro
